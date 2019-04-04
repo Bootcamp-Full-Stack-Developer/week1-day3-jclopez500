@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>01 CUSTOMER INFO</li>
+                <li>02 SHIPPING INFO</li>
+                <li><strong>03 PAYMENT INFO</strong></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="..." method="POST">
+            <fieldset>
+                <legend>Payment Selection</legend>
+                <fieldset>
+                    <div>
+                        <input type="radio" name="payment" value="Credit Card">
+                        <img src="..." alt="">
+                        <p>Safe money transfer using your bank account. Visa, Maestro, Discover, American Express.</p>
+                    </div>
+                    <div>
+                        <label for="creditcard">CARD NUMBER</label>
+                        <input type="text" placeholder="0000 0000 0000 0000">
+                        <img src="" alt="">
+                    </div>
+                    <div>
+                        <div>
+                            <label for="cardname">CARD NAME</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label for="expiredate">EXPIRE DATE</label>
+                            <input type="text" placeholder="MM/YY">
+                        </div>
+                        <div>
+                            <label for="cvvcode">CVV MODE</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div>
+                        <input type="radio" name="payment" value="Paypal">
+                        <p>You will be redirected to PayPal website to complete your purchase securely.</p>
+                        <img src="..." alt="">
+                    </div>
+                </fieldset>
+
+                <div>
+                    <a href="pag2.html">Back to Shipping Info</a>
+                    <input type="submit" value="COMPLETE ORDER">
+                </div>
+
+            </fieldset>
+        </form>
+    </main>
+
+    <aside>
+            <header>
+                <div>
+                    <h1>Shopping Cart</h1>
+                    <p>num_products</p>
+                </div>
+            </header>
+    
+            <section>
+                <div>
+                    <img src="..." alt="">
+                    <p>Lightweight College backpack<br>&euro; 99.90</p>
+                </div>
+                <div>
+                    <img src="..." alt="">
+                    <p>Business Casual Leather Watch Waterproof<br>&euro; 69.90</p>
+                </div>
+            </section>
+    
+            <section>
+                <div>
+                    <p>Have a voucher? &#xfe40;</p>
+                </div>
+                <div>
+                    <form action="..." method="POST">
+                        <div>
+                            <label for="voucher">voucher</label>
+                            <input type="text" id="voucher">
+                            <input type="submit" id="voucher">
+                        </div>
+                    </form>
+                </div>
+            </section>
+    
+            <section>
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>&euro; 169.80</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                </table>
+            </section>
+    
+            <footer>
+                <table>
+                    <tr>
+                        <td>Total</td>
+                        <td><strong>&euro; 169.90</strong></td>
+                    </tr>
+                </table>
+            </footer>
+    
+        </aside>
+
+</body>
+
+</html>
